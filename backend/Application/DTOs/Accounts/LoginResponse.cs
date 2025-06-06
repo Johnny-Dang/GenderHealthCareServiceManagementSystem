@@ -1,4 +1,4 @@
-namespace backend.Application.DTOs.Accounts
+﻿namespace backend.Application.DTOs.Accounts
 {
     public class LoginResponse
     {

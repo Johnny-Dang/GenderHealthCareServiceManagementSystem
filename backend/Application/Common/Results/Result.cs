@@ -1,4 +1,4 @@
-public class Result<T>
+﻿public class Result<T>
 {
     public bool IsSuccess { get; init; }
     public string? Error { get; init; }

@@ -1,4 +1,4 @@
-using backend.Application.DTOs.Roles;
+﻿using backend.Application.DTOs.Roles;
 
 namespace backend.Application.Interfaces
 {

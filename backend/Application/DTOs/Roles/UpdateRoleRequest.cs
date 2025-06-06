@@ -1,4 +1,4 @@
-namespace backend.Application.DTOs.Roles
+﻿namespace backend.Application.DTOs.Roles
 {
     public class UpdateRoleRequest
     {

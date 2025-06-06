@@ -1,4 +1,4 @@
-using FluentValidation;
+﻿using FluentValidation;
 using backend.Application.DTOs.Accounts;
 namespace StudentManagementSystem.Application.ModelValidation
 {
