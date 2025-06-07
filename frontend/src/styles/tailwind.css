@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary-background: #22b8bf;
+    --primary-foreground: #ffffff;
+    --primary-light: #8124b79b;
+    --primary-dark: #b122bf75;
+
+    /* Secondary Colors */
+    --secondary-background: #f8f3e8;
+    --secondary-foreground: #02090a;
+    --secondary-light: #e8edf8;
+    --secondary-dark: #e8f7f8;
+
+    /* Accent Colors */
+    --accent-color: #feeaeb;
+    --accent-foreground: #f3d3f3;
+    --accent-light: #f2f2f2;
+    --accent-dark: #d2f0f2;
+
+    /* Footer Colors */
+    --footer-background: #0d494c;
+
+    /* Border Colors */
+    --border-primary: #02090a26;
+    --border-secondary: #f2010126;
+    --border-light: #b122bf75;
+    --border-dark: #000000;
+  }
+}
+
+@layer utilities {
+  /* Font Utilities */
+  .font-heading {
+    font-family: 'Merriweather', serif;
+  }
+
+  .font-body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* Background Color Utilities */
+  .bg-primary-teal {
+    background-color: var(--primary-background);
+  }
+
+  .bg-primary-light {
+    background-color: var(--primary-light);
+  }
+
+  .bg-primary-dark {
+    background-color: var(--primary-dark);
+  }
+
+  .bg-secondary-cream {
+    background-color: var(--secondary-background);
+  }
+
+  .bg-secondary-light {
+    background-color: var(--secondary-light);
+  }
+
+  .bg-secondary-dark {
+    background-color: var(--secondary-dark);
+  }
+
+  .bg-accent-pink {
+    background-color: var(--accent-color);
+  }
+
+  .bg-accent-purple {
+    background-color: var(--accent-foreground);
+  }
+
+  .bg-accent-light {
+    background-color: var(--accent-light);
+  }
+
+  .bg-accent-dark {
+    background-color: var(--accent-dark);
+  }
+
+  .bg-footer-dark {
+    background-color: var(--footer-background);
+  }
+
+  /* Text Color Utilities */
+  .text-primary-white {
+    color: var(--primary-foreground);
+  }
+
+  .text-secondary-dark {
+    color: var(--secondary-foreground);
+  }
+
+  /* Border Color Utilities */
+  .border-primary {
+    border-color: var(--border-primary);
+  }
+
+  .border-secondary {
+    border-color: var(--border-secondary);
+  }
+
+  .border-light {
+    border-color: var(--border-light);
+  }
+
+  .border-dark {
+    border-color: var(--border-dark);
+  }
+
+  /* Custom Gradient Utilities */
+  .bg-hero-gradient {
+    background: linear-gradient(135deg, #22b8bf 0%, #8124b79b 100%);
+  }
+
+  .bg-button-gradient {
+    background: linear-gradient(135deg, #22a4bf 0%, #24b7b7 100%);
+  }
+
+  .bg-track-gradient {
+    background: linear-gradient(135deg, #b122bff4 0%, #9724b75e 100%);
+  }
+}
