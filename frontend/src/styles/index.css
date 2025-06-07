@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './tailwind.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global font settings */
+:root {
+  --heading-font: 'Merriweather', serif;
+  --body-font: 'Open Sans', sans-serif;
+}
+
+html {
+  font-family: var(--body-font);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom padding override */
+.py-24 {
+  padding-top: 4rem !important; /* 64px */
+  padding-bottom: 3rem !important;
+}
+
+/* Apply heading font to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font) !important;
+  font-weight: 700;
+}
+
+/* Force Open Sans on paragraphs */
+p {
+  font-family: var(--body-font) !important;
+}
+
+.font-merriweather {
+  font-family: var(--heading-font) !important;
+}
+
+.font-opensans {
+  font-family: var(--body-font) !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Global styles for better accessibility */
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #22b8bf;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22b8bf;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a9aa0;
+}
